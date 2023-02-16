@@ -1,5 +1,5 @@
 package prueba;
-
+import condicionales.*;
 
 public class main {
 	
@@ -15,6 +15,26 @@ public class main {
 			coche coche1 = new coche();
 			
 			System.out.println("el numero de puertas del coche es: " + coche1.incrementarpuertas());
+			
+			condicional_if condicional = new condicional_if();
+			
+			condicional.condicional();
+			
+			condwhile condicionalwhile = new condwhile();
+			
+			condicionalwhile.buclewhile();
+			
+			conddowhile condicionaldowhile = new conddowhile();
+			
+			condicionaldowhile.bucledowhile();
+			
+			condicionalfor condfor = new condicionalfor();
+			
+			condfor.condicional_for();
+			
+			condcase condcase = new condcase();
+			
+			condcase.verificadorEstacion();
 	        
 	    }
 		
